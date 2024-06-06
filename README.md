@@ -9,6 +9,7 @@ The new model (black) showed a significantly reduced error of less than 10^-15. 
 This approach mitigates the need to account for every hidden variable or inaccuracy within the system or mathematical conversion model. Moreover, switching between two different 
 NTC thermistors of the same make resulted in negligible temperature differences, indicating that the code is reusable for future applications such as overtemperature warnings in other devices.
 
+UPDATE, the problem was caused by having too low of an ADC sample time. It now works with the standard equation.
 
 ![curve](https://github.com/DoggeBoi/STM32F303_NUCLEO_64_ADC_DMA_NTC_Thermistor/assets/59169880/62b553f8-563f-4134-9bf4-a1e2c86cc860)
 
